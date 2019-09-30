@@ -89,7 +89,7 @@ sudo git clone --depth 1 --branch ${ODOO_VERSION} https://www.github.com/odoo/od
 # Clone OCA addons
 #------------------------------------------------------------------------------
 sudo mkdir -p ${ODOO_ADDONS_DIR}/oca_addons
-cp "mrconfig" "${ODOO_ADDONS_DIR}/oca_addons/.mrconfig"
+sudo cp "mrconfig" "${ODOO_ADDONS_DIR}/oca_addons/.mrconfig"
 echo "${ODOO_ADDONS_DIR}/oca_addons/.mrconfig" >> ~/.mrtrust
 cd ${ODOO_ADDONS_DIR}/oca_addons || exit
 mr update
