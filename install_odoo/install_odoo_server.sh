@@ -71,11 +71,11 @@ rm wkhtmltox_0.12.5-1.bionic_amd64.deb
 #------------------------------------------------------------------------------
 # Install Odoo Dependencies
 #------------------------------------------------------------------------------
-sudo apt install -y python3-dev libxml2-dev libxslt1-dev libevent-dev libsasl2-dev libssl1.0-dev libldap2-dev libpq-dev libpng-dev libjpeg-dev
+sudo apt install -y python3-dev python3-pypdf2 libopenjp2-7 libxml2-dev libxslt1-dev libevent-dev libsasl2-dev libssl1.0-dev libldap2-dev libpq-dev libpng-dev libjpeg-dev
 
 #------------------------------------------------------------------------------
 # Install Python Package
-#----------------------------------------------------------------------------d--
+#------------------------------------------------------------------------------
 echo -e "\n---- Install tool packages ----"
 sudo apt install -y git gdebi-core libpq-dev
 
